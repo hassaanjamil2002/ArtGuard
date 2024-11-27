@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.register-container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    color: #ff3d68;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.header p {
+    color: #666666;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.register-form .form-group {
+    margin-bottom: 20px;
+}
+
+.register-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.register-form input:focus {
+    outline: none;
+    border-color: #ff3d68;
+    box-shadow: 0 0 5px rgba(255, 61, 104, 0.5);
+}
+
+.btn-custom {
+    background-color: #ff3d68;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn-custom:hover {
+    background-color: #ff1c4d;
+    transform: scale(1.05);
+}
+
+.upload-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fafafa;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+.upload-field:hover {
+    border-color: #ff3d68;
+}

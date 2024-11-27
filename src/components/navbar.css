@@ -1,0 +1,113 @@
+/* General navbar styles */
+.navbar-container {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar Content */
+.navbar-navbar-interactive {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar-image1 {
+  height: 50px;
+  width: auto;
+}
+
+/* Navigation Links */
+.navbar-desktop-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin-left: 20px; /* Adds space between logo and menu */
+}
+
+.navbar-links1 {
+  display: flex;
+  gap: 20px;
+}
+
+.thq-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+/* Link hover */
+.thq-link:hover {
+  color: #f1c40f;
+}
+
+/* Navbar Buttons */
+.navbar-buttons1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto; /* Pushes buttons to the far right */
+}
+
+.navbar-action11,
+.navbar-action21 {
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Hover effects */
+.navbar-action11:hover,
+.navbar-action21:hover {
+  color: #f1c40f;
+  border-color: #f1c40f;
+}
+
+/* Sign-out Button */
+.signout-btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.signout-btn:hover {
+  color: #f1c40f;
+  border-color: #f1c40f;
+}
+
+/* Username Display */
+.navbar-username {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .navbar-desktop-menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar-buttons1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
